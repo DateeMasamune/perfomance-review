@@ -1,0 +1,30 @@
+.storybook-text {
+    font-family: 'monospace';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.storybook-text--primary {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.storybook-text--secondary {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.storybook-text--small {
+    font-size: 0.5rem;
+    font-weight: 100;
+}
+
+.storybook-text--medium {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.storybook-text--large {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
