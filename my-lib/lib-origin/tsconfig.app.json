@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+
+    /*Настройка для генерации типов для библиотеки  https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html*/
+    "declaration": true, // настройка для генерации деклараций типов (для автоподстановки вариантов типов)
+    "emitDeclarationOnly": true, // настройка, которая говорит ТС генерировать только декларации типов, не компилируя TS в JS
+    "outDir": "dist", // настройка, которая указывает в какую папку генерировать типы
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
