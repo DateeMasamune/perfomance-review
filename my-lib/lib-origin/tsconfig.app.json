@@ -11,15 +11,11 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    "noEmit": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "jsx": "react-jsx",
-
-    /*Настройка для генерации типов для библиотеки  https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html*/
-    "declaration": true, // настройка для генерации деклараций типов (для автоподстановки вариантов типов)
-    "emitDeclarationOnly": true, // настройка, которая говорит ТС генерировать только декларации типов, не компилируя TS в JS
-    "outDir": "dist", // настройка, которая указывает в какую папку генерировать типы
 
     /* Linting */
     "strict": true,

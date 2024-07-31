@@ -1,5 +1,5 @@
-import { Footer, Header } from 'lib-origin'
 import './App.css'
+import { Footer, Header } from './components'
 
 function App() {
   return (

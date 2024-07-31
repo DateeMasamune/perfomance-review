@@ -1,25 +1,10 @@
 {
   "name": "lib-origin",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "type": "module",
-  "main": "./dist/lib-origin.umd.cjs",
-  "types": "./dist/src/lib.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/lib-origin.js",
-      "require": "./dist/lib-origin.umd.cjs",
-      "types": "./dist/src/lib.d.ts"
-    }
-  },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "tsc": "tsc -b --force",
-    "build:lib": "npm run build && npm run tsc",
-    "publish": "npm publish",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
